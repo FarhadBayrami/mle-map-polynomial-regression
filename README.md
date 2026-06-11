@@ -68,15 +68,31 @@ All solvers are implemented without ML libraries — using only NumPy, SciPy, an
 
 ## 📐 Key Equations
 
-**MLE — Gaussian (equivalent to Least Squares):**
-θ_MLE = (ΦᵀΦ)⁻¹ Φᵀ Y
-**MAP — Gaussian prior (equivalent to Ridge Regression):**
-θ_MAP = (ΦᵀΦ + λI)⁻¹ Φᵀ Y     where λ = σ² / σ²_θ
+**MLE — Gaussian** (equivalent to Least Squares):
+
+| | Formula |
+|-|---------|
+| θ_MLE | = (ΦᵀΦ)⁻¹ Φᵀ Y |
+
+**MAP — Gaussian prior** (equivalent to Ridge Regression):
+
+| | Formula |
+|-|---------|
+| θ_MAP | = (ΦᵀΦ + λI)⁻¹ Φᵀ Y |
+| where | λ = σ² / σ²_θ |
+
 **MLE — Poisson:**
-θ_MLE = argmin  Σᵢ [ −yᵢ log(λᵢ) + λᵢ ]     λᵢ = Φ(xᵢ)θ
+
+| | Formula |
+|-|---------|
+| θ_MLE | = argmin Σᵢ [ −yᵢ log(λᵢ) + λᵢ ] |
+| where | λᵢ = Φ(xᵢ)θ |
+
 **MAP — Poisson + Gaussian prior:**
-θ_MAP = argmin  Σᵢ [ −yᵢ log(λᵢ) + λᵢ ] + (λ/2)||θ||²
----
+
+| | Formula |
+|-|---------|
+| θ_MAP | = argmin Σᵢ [ −yᵢ log(λᵢ) + λᵢ ] + (λ/2)\|\|θ\|\|² |---
 
 ## 🧪 Experiments
 
