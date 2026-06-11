@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code in your research, please cite it as below."
+authors:
+  - family-names: Bayrami
+    given-names: Farhad
+    email: farhad.bayrami@studio.unibo.it
+    affiliation: University of Bologna
+title: "MLE and MAP for Polynomial Regression under Gaussian and Poisson Noise"
+version: 1.0.0
+date-released: 2023-01-01
+url: "https://github.com/FarhadBayrami/mle-map-polynomial-regression"
+license: MIT
+keywords:
+  - MLE
+  - MAP
+  - polynomial regression
+  - Gaussian noise
+  - Poisson noise
+  - ridge regression
+  - gradient descent
+  - statistical learning
