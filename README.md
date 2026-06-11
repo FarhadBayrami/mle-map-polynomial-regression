@@ -141,7 +141,8 @@ All output figures are saved in the working directory.
 | File | Description |
 |------|-------------|
 | `homework4_mle_map.py` | Full implementation: MLE, MAP, solvers, all experiments |
-| `REPORT.md` | Written report with analysis and discussion |
+| `REPORT.pdf` | Written report with analysis and discussion |
+| `homework4.pdf` | Original homework assignment specification |
 | `requirements.txt` | Python dependencies |
 | `LICENSE` | MIT License |
 | `CITATION.cff` | How to cite this work |
